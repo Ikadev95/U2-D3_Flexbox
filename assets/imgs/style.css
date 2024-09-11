@@ -95,5 +95,19 @@ font-size: 14px;
 .paragraph{
     text-align: center;
 }
-
+.article-container{
+    background-color:#FEF7E2 ;
+    padding: 24px;
+    border-radius: 20px;
+}
+article img{
+    width: 100%;
+}
+h2{
+    line-height: 4rem;
+    font-size: 28px;
+}
+.article-container p {
+    margin-block: 16px;
+}
 /* fine tablet */
