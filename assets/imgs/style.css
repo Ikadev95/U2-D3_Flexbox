@@ -53,7 +53,7 @@ li{
     border-radius: 20px;
     font-size: 14px;
     font-weight: 550;
-    min-width: 150px;
+    min-width: 40%;
 }
 
 .logo{
@@ -67,7 +67,7 @@ li{
     justify-content: center;
     max-width: 300px;
     gap: 8px;
-    margin-inline: 30%;
+    margin-inline: 23%;
 }
 h1{
     padding-block: 20px;
@@ -78,7 +78,7 @@ h1{
 .card-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 24px;
     margin-bottom: 24px;
 }
 .card{
@@ -157,18 +157,21 @@ h2{
     .logo{
         width: auto;
         order: 0;
-        margin: 0;
+        margin-inline: 12px;
+        min-height: fit-content;
     }
     nav{
         margin: 0px;
         padding-inline: 0;
         border-radius: 0;
     }
-    ul, li{
-        gap: 6px;
-    }
     li{
         min-width: 0;
+        gap: 6px;
+        margin: 16px;
+    }
+    .card-container{
+        gap:20px;
     }
     
     /* fine tablet */
