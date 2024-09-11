@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    color: #742304;
+}
+*::after{
+    margin: 0;
+    padding: 0;
+}
+*::before{
+    margin: 0;
+    padding: 0;
+}
+/* da qui tutto il tablet */
+main{
+    padding-inline: 16px;
+}
+nav{
+    background-color: #FEF7E2;
+    padding-block: 16px;
+}
+ul, li{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    gap: 6px;
+    align-items: center;
+}
+
+li{
+    background-color: #FEDF7E;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.logo{
+    border-radius: 36px;
+    padding-inline: 16px;
+    padding-block: 24px;
+    font-size: 20px;
+}
+h1{
+    padding-block: 20px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.card{
+    max-width: 48.5%;
+    background-color: #FEF7E2;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card img{
+    max-width: 100%;
+    border-radius: 40px 40px 0px 0px ;
+}
+.card button{
+    background-color:#FEDF7E ;
+    border: 0px;
+    padding-block: 6px;
+    border-radius: 16px;
+    width: 60%;
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.text-card{
+padding-block: 16px;
+display: flex;
+gap: 35px;
+font-size: 14px;
+}
+.text-card h4{
+    font-weight: 550;
+    line-height: 1rem;
+    font-size: 15px;
+}
+.paragraph p{
+    font-size: 11px;
+}
+.paragraph{
+    text-align: center;
+}
+
+/* fine tablet */
